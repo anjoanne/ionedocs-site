@@ -6,7 +6,6 @@ expanded: true
 
 # DICOM Export
 
-
 1. 영상 다운로드를 원하는 스터디의 체크박스를 클릭합니다.
 다른 환자의 영상이 포함된 경우: 최대 5 개
 2. 오른쪽 상단의 버튼을 클릭하거나 마우스 오른쪽 버튼을 클릭하여 세부메뉴로 이동합니다.
@@ -16,23 +15,21 @@ expanded: true
     III. Export DICOM As : 파일 확장자와 파일이름 형식을 지정하여 내보내기
 
 
-Exporting the selected view 
+## 선택한 뷰 내보내기
 
-From the toolbar icon  or from the main menu File > Export > Exporting view export the selected view either to the clipboard or to image file (PNG, TIF, JPG, JPEG2000).
+툴바 아이콘 또는 메인 메뉴의 파일 > 내보내기 > 뷰 내보내기를 통해 선택한 뷰를 클립보드 또는 이미지 파일(PNG, TIF, JPG, JPEG2000)로 내보낼 수 있습니다.
 
-Current view
-Export the view as it is (size and overlay).
+현재 뷰: 현재 뷰의 크기와 오버레이를 그대로 내보냅니다.
 
-Anonymize: It allows you to remove identifying information in overlay.
+익명 처리: 오버레이에 있는 식별 정보를 제거할 수 있습니다.
 
-Original Image
-Export the view according to the original image with some options.
+원본 이미지: 일부 옵션을 통해 원본 이미지에 맞춰 뷰를 내보냅니다.
 
 
 ![](export.png)
 
 
-1. Append to Series 모드로 업로드 하는 경우
+## Append to Series 모드로 업로드 하는 경우
 
 Studies 영역에서 Study를 1개 선택한 후, Series 영역에서 리스트 모드 버튼을 클릭한다.
 
@@ -57,7 +54,7 @@ Advanced Capture 팝업에서 Close 버튼을 클릭한다.
 OK 버튼을 클릭한다.
 
 
-2. PC Register Patient 탭에서 환자 정보 입력 후 업로드 하는 경우
+## PC Register Patient 탭에서 환자 정보 입력 후 업로드 하는 경우
 
 우측 상단에서 A_Capture 버튼을 클릭한다.
 

@@ -6,6 +6,4 @@ expanded: true
 # Step-by-Step Video Tutorials
 
 
-
-
-[!embed](https://www.youtube.com/watch?v=80dy8VVnc4s)
+[Best Image Tutorial](https://www.youtube.com/watch?v=80dy8VVnc4s)
