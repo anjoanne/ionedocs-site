@@ -77,7 +77,6 @@ I-Rapha View™는 아래와 같이 두 가지의 영상표시창 모드를 제�
 [Mode] 메뉴는 토글 방식으로 작동하여 [Mode] 메뉴를 클릭하면 현재 적용된 영상표시창 모드에서 다른 모드로 변경됩닏.
 
 
-
 ---------
 
 Please visit I-one DICOM Viewer [FAQ page] for answers to frequently asked questions or problems.
