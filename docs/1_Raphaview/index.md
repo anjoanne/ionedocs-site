@@ -16,7 +16,6 @@ I-Rapha View™는 식약처에서 인증받은 의료기기입니다.
 - 등급: 2 등급
 - 명칭:(주)아이알엠·의료영상전송장치소프트웨어, I-Rapha View
 
-
 ------
 
 ## Navigation 
@@ -32,15 +31,15 @@ I-Rapha View™의 화면은 메뉴바, 토글버튼, 시리즈썸네일창, 영
 -Rapha View™는 가상 레이아웃(Virtual Layout) 기능을 이용하여 하나의 모니터에 최대 2 개의 [영상표시창]을 실행하여 동시에 2 개의 스터디를 하나의 모니터에 표시할 수 있습니다.
 메뉴바의 [VL] 메뉴를 이용하여 영상표시창의 가상 레이아웃을 설정할 수 있으며 I-Rapha View™에서 지원하는 영상표시창 가상 레이아웃은 다음과 같습니다.
 - 일반 레이아웃(Normal Layout): 뷰어 전체에 하나의 영상표시창 실행. (default)
-- 수직레이아웃(Vertical Layout): 뷰어를 좌우 두 개의 영상표시창 실행
-- 수평레이아웃(Horizontal layout): 뷰어를 상하 두 개의 영상표시창 실행
+- 수직 레이아웃(Vertical Layout): 뷰어를 좌우 두 개의 영상표시창 실행
+- 수평 레이아웃(Horizontal layout): 뷰어를 상하 두 개의 영상표시창 실행
 
 
-### 1. 일반레이아웃(Normal Layout)
+### 1. 일반 레이아웃(Normal Layout)
 일반레이아웃(Normal Layout)은 뷰어에 하나의 스터디의 영상이 표시되며, I-Rapha View™의 기본
 영상표시창 레이아웃으로 처음 실행되면 선택되는 레이아웃입니다.
 
-**일반레이아웃(Normal Layout) 설정하기**
+**일반 레이아웃(Normal Layout) 설정하기**
 현재의 영상표시창 가상 레이아웃이 수직레이아웃(Vertical Layout) 또는 수평레이아웃(Horizontal layout) 상태일 경우, 다음의 순서에 따라 I-Rapha View™의 영상표시창 가상 레이아웃을 일반 레이아웃(Normal Layout)으로 설정할 수 있습니다.
 1. 메뉴바에서 [VL] 메뉴버튼을 클릭합니다
 2. [VL] 메뉴의 하위메뉴에서 [Normal] 메뉴를 클릭합니다.
@@ -48,18 +47,18 @@ I-Rapha View™의 화면은 메뉴바, 토글버튼, 시리즈썸네일창, 영
 하나의 스터디의 영상을 조회할 수 있습니다. 이때 메뉴바에 있는 [VL] 메뉴의 모양이 [Normal] 메뉴로 표시됩니다.
 
 
-### 2. 수직레이아웃(Vertical Layout)
+### 2. 수직 레이아웃(Vertical Layout)
 수직레이아웃(Vertical Layout)에서는 뷰어에서 영상표시창이 좌우로 두 개가 실행되며 각
 [영상표시창]에 스터디가 표시되어 서로 다른 2 개의 스터디의 영상을 동시에 비교하며 조회할 수 있습니다. 가로형(landscape) 모니터에 적합한 레이아웃입니다.
-**수직레이아웃(Vertical Layout) 설정하기**
+**수직 레이아웃(Vertical Layout) 설정하기**
 다음의 순서에 따라 영상표시창 가상 레이아웃을 수직레이아웃(Vertical Layout)으로 설정할 수 있습니다.
 1. 메뉴바에서 [VL] 메뉴를 클릭합니다. 
 2. [VL] 메뉴의 하위메뉴에서 [Vertical] 메뉴를 클릭합니다.
 
 
-### 3. 수평레이아웃(Horizontal Layout)
+### 3. 수평 레이아웃(Horizontal Layout)
 수평레이아웃(Horizontal layout)은 뷰어에서 영상표시창이 상하로 두 개가 실행되며 각 [영상표시창]에 스터디가 표시되어 서로 다른 2 개의 스터디의 영상을 동시에 비교하며 조회할 수 있습니다. 세로형(Portrait) 모니터에서 사용하기에 적합한 레이아웃입니다.
-**수평레이아웃(Horizontal Layout) 설정하기**
+**수평 레이아웃(Horizontal Layout) 설정하기**
 다음의 순서에 따라 영상표시창 가상 레이아웃을 수평레이아웃(Horizontal layout)으로 설정할 수 있습니다.
 1. 메뉴바에서 [Layout] 메뉴버튼을 클릭합니다.
 2. [VL] 메뉴의 하위메뉴에서 [Horizontal] 메뉴를 클릭합니다.
