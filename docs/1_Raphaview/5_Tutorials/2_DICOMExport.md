@@ -10,9 +10,9 @@ expanded: true
 다른 환자의 영상이 포함된 경우: 최대 5 개
 2. 오른쪽 상단의 버튼을 클릭하거나 마우스 오른쪽 버튼을 클릭하여 세부메뉴로 이동합니다.
 3. 다음 3 가지 형식으로 다운로드를 할 수 있습니다.
-    I. Export DICOM Zip : 압축파일 형태로 내보내기
-    II. Export DICOM CD : CD 파일(ISO)로 내보내기
-    III. Export DICOM As : 파일 확장자와 파일이름 형식을 지정하여 내보내기
+    - Export DICOM Zip : 압축파일 형태로 내보내기
+    - Export DICOM CD : CD 파일(ISO)로 내보내기
+    - Export DICOM As : 파일 확장자와 파일이름 형식을 지정하여 내보내기
 
 
 ## 선택한 뷰 내보내기
@@ -26,7 +26,7 @@ expanded: true
 원본 이미지: 일부 옵션을 통해 원본 이미지에 맞춰 뷰를 내보냅니다.
 
 
-![](export.png)
+![](img/export.png)
 
 
 ## Append to Series 모드로 업로드 하는 경우

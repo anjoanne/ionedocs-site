@@ -2,6 +2,7 @@
 order: 45
 expanded: true
 ---
+
 # Comparing Studies
 
 
@@ -17,3 +18,7 @@ Patient Name 환자 이름
 Exam Date 촬영일자
 Sex 성별(M: 남, F: 여, O: 기타)
 Age 나이(Y: 년, M: 월, D: 일)
+
+
+
+ 영상을 띄우면 스터디 탭의 사진표시 -환자한테 딸려있는 related studies 을보고 태이블/ virtual tab 띄어놓고 왔다갔다
