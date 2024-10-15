@@ -42,10 +42,8 @@ Line 주석을 그리기 위해서는 영상의 원하는 부분에 마우스를
 
 
 
-
 ## Measurements(측정도구)
 
-![](img/measurements.png)
 
 영상의 측정과 관련된 기능들이 모여 있습니다.
 

@@ -240,7 +240,6 @@ Window Width 는 대조도(Contrast)를, Window Level 은 밝기(Bright)를 의�
 
 ## Measurements(측정도구)
 
-![](img/measurements.png)
 
 영상의 측정과 관련된 기능들이 모여 있습니다
 
