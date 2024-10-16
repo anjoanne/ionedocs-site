@@ -3,7 +3,6 @@ order: 49
 expanded: true
 ---
 
-
 # DICOM Export
 
 1. 영상 다운로드를 원하는 스터디의 체크박스를 클릭합니다.
