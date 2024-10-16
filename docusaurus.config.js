@@ -98,12 +98,6 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/',
-            label: 'GitHub',
-            position: 'right',
-          },
         ],
       },
       footer: {
@@ -116,28 +110,12 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'IRM',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://s',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'IRM Official Site',
+                href: 'https://irm.kr/',
+                
               },
             ],
           },

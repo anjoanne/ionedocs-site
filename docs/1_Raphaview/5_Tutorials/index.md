@@ -12,10 +12,8 @@ I-Rapha View™를 처음 접하거나 DICOM 표준 데이터를 조회 및 분�
 튜토리얼은 주제별로 구성되어 있으므로 각 인터페이스의 주요 기능들의 이해를 돕습니다.
 
 
-- [Dicom Import]
-- [Dicom Export]
-- [Image Orientation and Manipulation]
-- [Annotation and Measurement]
-- [Comparing Studies]
-- [EMR device Integration]
-- [Step-by-Step Video Tutorials]
+- [Overall GUI](1_Overall%20GUI.md)
+- [Dicom Export](2_DICOMExport.md)
+- [Image Orientation and Manipulation](3_ImageOrientationandManipulation.md)
+- [Annotation and Measurement](4_Annotation%20and%20Measurement.md)
+- [Comparing Studies](6_Comparing%20Studies.md)

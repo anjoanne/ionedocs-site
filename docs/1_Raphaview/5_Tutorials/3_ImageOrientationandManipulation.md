@@ -7,7 +7,6 @@ expanded: true
 
 ## 의료 영상 조작 
 
-
 I-Rapha View™는 영상의 확대 및 밝기, 대조도의 조정, 특정부위의 길이나 각도의 측정과 같이
 다양한 영상조작 및 측정기능을 제공하고 있습니다.
 1. W/L 조정
@@ -24,7 +23,7 @@ Window Width 의 값이 클수록 넓은 범위의 Window Level(밝기)을 표�
 W/L(영상 밝기/대조도 조정)
 메뉴바의 [W/L] 메뉴는 [영상표시창]의 영상의 Window Width 값과 Level 값을 조정하여 보기 위한 메뉴입니다.
 [W/L] 메뉴가 선택된 상태에서 마우스를 상하좌우로 드래그하여 W/L 을 조절할 수 있습니다.
-Window Width 는 대조도(Contrast)를, Window Level 은 밝기(Bright)를 의미합니다
+Window Width 는 대조도(Contrast)를, Window Level 은 밝기(Bright)를 의미합니다.
 
 ![](img/brightness.png)
 
