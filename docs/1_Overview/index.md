@@ -1,5 +1,5 @@
 ---
-order: 1200
+order: 1100
 ---
 
 # Overview
@@ -61,7 +61,6 @@ Intel® Core™ i3 4 core CPU or better
 
 - [ ] [Raphaview](https://docs.gitlab.com/ee/user/project/members/)
 - [ ] [Backup & View](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Admin Settings](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
 - [ ] [Image Worklist](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
 
 

@@ -1,7 +1,5 @@
 # GUI Overview
 
-Essential aspects of the interface 
-
 
 :::info
 
@@ -228,28 +226,18 @@ Window Width 는 대조도(Contrast)를, Window Level 은 밝기(Bright)를 의�
 
 뷰어의 기타 유용한 기능들을 모아놓은 메뉴입니다.
 
-Reset 영상을 원래 상태로 되돌립니다.
-DICOM 선택된 영상의 DICOM Information 창을 띄웁니다.
-Copy 선택된 영상을 클립보드에 저장합니다.
-Save 영상에 입력된 주석을 수동으로 저장합니다.
-Setting 뷰어의 환경설정 창을 띄웁니다
+- Reset:: 사용자가 추가한 Annotation 이나 Measurement 를 없애고 영상의 상태를 처음 상태로 되돌립니다.
+- DICOM: 선택된 영상의 DICOM 헤더정보(DICOM Information)를 확인할 수 있습니다.
+- Copy: 선택된 영상을 클립보드에 저장합니다. 클립보드 기능을 제공하는 다른 프로그램에서 클립보드 내용을 불러옴으로써 영상을 붙여넣을 수 있습니다.
+- Save: 사용자가 추가한 Annotation 이나 Measurement 를 수동으로 저장합니다. 뷰어를 닫았다가 다시 열어도 이전에 그린 Annotation 이나 Measurement 이 유지됩니다.
+- Setting: I-Rapha View™의 환경을 설정할 수 있는 팝업을 띄웁니다. 해당 페이지의 하위메뉴는 PACS 제품에 따라 다를 수 있습니다. 각 제품의 메뉴얼을 참고하십시오
 
-
-Reset : 사용자가 추가한 Annotation 이나 Measurement 를 없애고 영상의 상태를 처음 상태로 되돌립니다.
-DICOM Information 메뉴 : 선택된 영상의 DICOM 헤더정보(DICOM Information)를 확인하는 메뉴입니다.
 
 :::info
 
 DICOM 이란 의료용 디지털 영상 및 통신(Digital Imaging and Communications in Medicine, DICOM)의 약자로 의료용 기기에서 디지털 영상표현과 통신에 사용되는 표준을 총칭하는 말입니다. DICOM 에 대한 자세한 사항은 http://dicom.nema.org 를 참고하시기 바랍니다.
 
 :::
-
-
-- Copy: 선택된 영상을 클립보드에 저장합니다. 클립보드 기능을 제공하는 다른 프로그램에서 클립보드 내용을 불러옴으로써 영상을 붙여넣을 수 있습니다.
-- Save: 사용자가 추가한 Annotation 이나 Measurement 를 수동으로 저장합니다. 뷰어를 닫았다가 다시 열어도 이전에 그린 Annotation 이나 Measurement 이 유지됩니다.
-- Setting: I-Rapha View™의 환경을 설정할 수 있는 팝업을 띄웁니다. 해당 페이지의 하위메뉴는 PACS 제품에 따라 다를 수 있습니다. 각 제품의 메뉴얼을 참고하십시오
-
-
 
 
 ## Unfold Multiframe

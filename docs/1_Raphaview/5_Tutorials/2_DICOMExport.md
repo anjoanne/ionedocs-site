@@ -53,7 +53,7 @@ Advanced Capture 팝업에서 Close 버튼을 클릭한다.
 OK 버튼을 클릭한다.
 
 
-## PC Register Patient 탭에서 환자 정보 입력 후 업로드 하는 경우
+## PC Register Patient 탭에서 업로드 하는 경우
 
 우측 상단에서 A_Capture 버튼을 클릭한다.
 

@@ -28,32 +28,6 @@ Window Width 는 대조도(Contrast)를, Window Level 은 밝기(Bright)를 의�
 ![](img/brightness.png)
 
 
-Interpretation of the orientation
-The orientation of the DICOM images is displayed by one or more uppercase letters in the middle on the top and left of the view.
-
-If Anatomical Orientation Type (0010,2210) attribute is absent or has a value of BIPED, anatomical direction is:
-
-A: anterior
-P: posterior
-R: right
-L: left
-H: head
-F: foot
-If Anatomical Orientation Type (0010,2210) attribute has a value of QUADRUPED (since Version4.1.0), anatomical direction is designated by:
-
-LE: Left
-RT: Right
-D: Dorsal
-V: Ventral
-CR: Cranial
-CD: Caudal
-R: Rostral
-M: Medial
-L: Lateral
-PR: Proximal
-DI: Distal
-PA: Palmar
-PL: Plantar
 
 ## Zooming, Panning, Rotating
 
@@ -86,13 +60,20 @@ PL: Plantar
 
 ## Apply All(시리즈 내 모든 영상 적용)
 
+
 이미지 모드(Image Mode)에서만 나타나는 메뉴로 현재 영상에 이루어지는 작업이 시리즈 내의 모든 영상에 적용되는지를 설정합니다.
 선택상태일 경우 시리즈 내의 모든 영상에 작업의 결과가 반영됩니다. 미선택 상태일 경우 작업이 이루어지는 영상에만 작업결과가 반영됩니다.
+
+![](img/applyall.png)
 
 이미지모드(Image Mode)가 선택되었을 때 나타나는 메뉴이며 [Apply All] 상태가 ON일 경우 시리즈 내의 모든 영상에 영상 조작 기능(Zoom, Window Width/Level
 조정 등)을 동시에 적용됩니다. OFF 상태일 경우에는 선택된 영상에만 영상 조작 기능이 적용되며, 시리즈 내의 다른 영상에는 영향을 미치지 않습니다. 만일 동일한 영상 조작 기능을 시리즈 내의 다른 영상에 적용하기 위해서는 동일한 작업을 반복해야 합니다.
 
+![](img/applyall_off.png)
+
 토글 방식으로 작동하며, [Combine] 메뉴를 클릭하면 현재 적용된 상태에서 다른 상태로 변경이 됩니다. 기본 상태는 ON 입니다.
+
+![](img/combine.png)
 
 Apply All 메뉴가 적용되는 영상 조작 기능은 다음과 같습니다.
 
@@ -110,7 +91,7 @@ Apply All 메뉴가 적용되는 영상 조작 기능은 다음과 같습니다.
 
 ![](img/applyall.png)
 
-
+ 
 [Apply All] 메뉴가 OFF 상태에서 Zoom 기능으로 하나의 영상을 확대한 경우 선택된 영상만 함께 확대됩니다.
 
 ![](img/applyall_off.png)
@@ -118,6 +99,9 @@ Apply All 메뉴가 적용되는 영상 조작 기능은 다음과 같습니다.
 
 
 ## Length
+
+![](img/length.png)
+
 영상의 원하는 부위에 마우스로 시작점과 끝점을 선택하면 이 시작점과 끝점을 잇는 측정선이 표시되고, 그 직선의 길이를 측정하는 기능입니다. 
 
 **직선길이 측정하기**
@@ -167,6 +151,9 @@ Length(직선 길이측정)기능을 멈추려면 ESC 키를 누르거나 다음
 각도를 측정하기 원하는 부위에 2 개의 선을 표시하고 그 선들이 이루고 있는 각도를 측정하는 기능입니다. 
 
 **각도 측정하기**
+
+![](img/angle_ex.png)
+
 1. 메뉴바에서 [Angle] 메뉴를 마우스로 선택합니다.
 2. 마우스 커서가 측정커서가 변경되면서 Angle 기능을 사용할 수 있게 됩니다.
 3. 측정을 원하는 부위에서 마우스를 눌러 시작점을 지정한 후 마우스를 드래그해 끝점에서 마우스를 올려 첫번째 측정선을 지정합니다.
@@ -178,6 +165,8 @@ Length(직선 길이측정)기능을 멈추려면 ESC 키를 누르거나 다음
 ## Transformations
 
 Transformations(변형도구) 기능은 영상의 표시 방향이나 방법을 변경하여 영상조회를 더욱 효과적으로 영상조회를 할 수 있는 도구들을 제공합니다.
+
+![](img/transformations.png)
 
 **Transformations 하위메뉴**
 
@@ -233,20 +222,20 @@ Pseudo Color 는 흑백 영상의 각 픽셀에 대해 그 농도 레벨에 따�
 2. Pseudo Color 팝업창의 리스트박스에서 선택한 Pseudo Color 방식에 따라 색상이 입혀져서 표시됩니다. 이미지모드(Image Mode)에서는 [영상표시창]에 보이는 영상의 시리즈에 적용이 됩니다. 스택모드(Stack Mode)에서는 선택한 영상의 시리즈에 적용이 됩니다.
 
 
-
-Note
+:::info
 The zoom function always zooms in/out to the center of the screen regardless of where the cursor is. This mode provides greater positional accuracy in particular situations.
 
 Since “Resize to best fit” is the default mode for a view, the image will be centered when scrolling to the next image. You need to change the mode or the zoom factor to keep the image off center when scrolling.
-
-
-
+:::
 
 ## Refresh
+
+![](img/refresh.png)
 
 영상이 뷰어에 로딩된 이후에 새로 추가된 영상을 보기 위해서 영상을 뷰어에서 다시 로딩합니다.
 
 ## Undo(실행취소)
+
 영상에 마지막으로 삽입된 주석(Annotation)이나 측정(Measurement)을 취소하는 메뉴입니다.
 
 
@@ -261,5 +250,10 @@ Since “Resize to best fit” is the default mode for a view, the image will be
 
 
 ## Presentation State
+
+
+![](img/presentationstate.png)
+
+
 Presentation State 를 선택하여 영상에 적용하는 기능입니다. 저장된 Presentation State 가 없는 경우 목록에 Create GSPS 만 나타납니다. 저장된 목록이 있는 경우 목록에서 적용할 state 를 클릭하면 해당 state 에 체크 표시가 되고 선택한 state 가 적용된 상태로 영상이 업데이트 됩니다. 원본 영상으로 되돌리고 싶다면 목록에서 체크된 state 를 다시 클릭합니다. 체크가 해제되면서 영상은 원본 영상으로 업데이트 됩니다.
 
