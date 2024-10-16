@@ -43,3 +43,4 @@ Age 나이(Y: 년, M: 월, D: 일)
 수평레이아웃(Horizontal Layout)은 상하로 2 개의 영상표시창이 실행되며, 하나의 뷰어에서 서로 다른 스터디를 비교하면서 조회할 수 있습니다
 
 ![Horizontal Layout](img/vl_ex3.png)
+

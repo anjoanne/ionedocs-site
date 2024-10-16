@@ -1,6 +1,7 @@
 ---
 order: 1200
 ---
+
 # Overview
 
 I-one provides the tools to visualize and analyze images obtained from medical imaging equipment according to the DICOM standard. This free DICOM viewer is used by healthcare professionals, researchers and patients.
@@ -22,8 +23,6 @@ The tutorials are organized by topics and can be read independently.
 | 저장공간 |  32 GB available hard drive space or more |  500 GB available hard drive space or more|
 | 해상도| 1440 x 900 (Recommend minimum display resolution) |   1920 x 1080 or more |
 | Network speed| 50 Mbps or more |  100 Mbps or more |
-
-
 
 
 Our mission is to provide healthcare providers with a sustainable, cost-effective and collaborative software solutions. Our innovative software products focus on clinical efficiency and workflow orchestration for your daily practice.
@@ -56,16 +55,19 @@ Intel® Core™ i3 4 core CPU or better
 - [ ] [Set up project integrations](https://gitlab-ione.irm.kr/i-one/ione-docs/-/settings/integrations)
 
 
-## Basics
 
 
-## Tutorials
+## Products
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+- [ ] [Raphaview](https://docs.gitlab.com/ee/user/project/members/)
+- [ ] [Backup & View](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
+- [ ] [Admin Settings](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
+- [ ] [Image Worklist](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
+
+
+## Tutorials and Best Practices
 
 ## FAQs
+
+
 
