@@ -54,6 +54,7 @@ Window Width 는 대조도(Contrast)를, Window Level 은 밝기(Bright)를 의�
 ![](img/pan_ex.png)
 
 ## Fit
+
 영상이 Zoom 기능으로 확대·축소되거나 Pan 기능으로 이동표시되어 있을 때 영상표시칸에 영상이 처음 표시된 상태로 조정하여 되돌리는 기능입니다. 
 
 
@@ -251,4 +252,6 @@ Since “Resize to best fit” is the default mode for a view, the image will be
 
 
 Presentation State 를 선택하여 영상에 적용하는 기능입니다. 저장된 Presentation State 가 없는 경우 목록에 Create GSPS 만 나타납니다. 저장된 목록이 있는 경우 목록에서 적용할 state 를 클릭하면 해당 state 에 체크 표시가 되고 선택한 state 가 적용된 상태로 영상이 업데이트 됩니다. 원본 영상으로 되돌리고 싶다면 목록에서 체크된 state 를 다시 클릭합니다. 체크가 해제되면서 영상은 원본 영상으로 업데이트 됩니다.
+
+
 
