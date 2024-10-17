@@ -188,13 +188,13 @@ Rotate Left 는 메뉴바의 Left 툴팁으로도 적용가능합니다.
 
 
 ### Rotate Right: 영상 오른쪽으로 돌리기
-1. 메뉴바에서 [Trans.] 메뉴의 하위메뉴에서 [Rotate Right] 메뉴를 마우스로 선택합니다
+1. 메뉴바에서 [Trans.] 메뉴의 하위메뉴에서 [Rotate Right] 메뉴를 마우스로 선택합니다.
 
 Rotate Right 는 메뉴바의 Right 툴팁으로도 적용가능합니다.
 
 ### Invert: 영상 명암 반전하기
 1. 메뉴바에서 [Trans.] 메뉴의 하위메뉴에서 [Invert] 메뉴를 마우스로 선택합니다.
-2. 선택된 영상이 속한 시리즈의 모든 영상들의 명암이 반전이 되어 표시됩니다
+2. 선택된 영상이 속한 시리즈의 모든 영상들의 명암이 반전이 되어 표시됩니다.
 
 
 ### Sharpening: 영상 선명하게 보기
@@ -235,12 +235,14 @@ Since “Resize to best fit” is the default mode for a view, the image will be
 
 
 ## Left / Right (영상 회전)
+
 메뉴바의 [Left]기능은 Transformations 메뉴에서 설명할 [Rotate Left]와 같은 기능을 수행합니다.
 메뉴바의 [Right]기능은 Transformations 메뉴에서 설명할 [Rotate Right]와 같은 기능을 수행합니다.
 
 
 
 ## Display Information/Display Annotation/Display Measurent
+
 [영상표시창]의 영상 위에 표시되는 정보, 주석, 측정정보의 표시여부를 설정하는 토글기능입니다.
 
 
