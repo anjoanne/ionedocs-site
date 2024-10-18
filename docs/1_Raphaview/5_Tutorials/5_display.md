@@ -1,4 +1,4 @@
-# Layout and Display 
+# Layout and Display Settings
 
 ## Layout Overview
 
