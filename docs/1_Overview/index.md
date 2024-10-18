@@ -29,9 +29,6 @@ Our mission is to provide healthcare providers with a sustainable, cost-effectiv
 
 In case if you still have any questions regarding this guide feel free to ask [contact@irmhealthcare.com]
 
-
-
-
 The table describes the requirements for computer, that uses Ione viewing functionalities from remote Ione server through the internet:
 
 
@@ -40,12 +37,7 @@ The table describes the requirements for computer, that uses Ione viewing functi
 | CPU|  Intel® Core™ i3 4 core CPU or better | - |
 | RAM |    8+ GB, 256+ MB of video memory  |   100+ Mbit/s|
 | Web Browsers| Chrome 123+, Firefox 124+, Microsoft Edge 123+, Safari 17+ |    Safari 17+, Chrome 123+ |
-
-
-Desktop Web HTML5	Mobile iOS Web	Mobile Android Web
-CPU	
-Intel® Core™ i3 4 core CPU or better
-
+| Desktop Web HTML5| Mobile iOS Web |    Mobile iOS Web	Mobile Android Web |
 
 
 * Depending on the total amount of RAM on user’s workstation, the browser is allowed to allocate the restricted amount of memory, and therefore Inoe application may load not more than 16 GBytes of data. Due to these limitations, browser may run out of memory, if the user loads several large computed tomography, mammography or tomosynthesis studies.
@@ -53,8 +45,6 @@ Intel® Core™ i3 4 core CPU or better
 ## Getting Started
 
 - [ ] [Set up project integrations](https://gitlab-ione.irm.kr/i-one/ione-docs/-/settings/integrations)
-
-
 
 
 ## Products
@@ -65,6 +55,7 @@ Intel® Core™ i3 4 core CPU or better
 
 
 ## Tutorials and Best Practices
+
 
 ## FAQs
 
