@@ -35,27 +35,27 @@ I-Rapha View™ 상단에 위치한 메뉴바(menubar)는 의료 영상을 조�
 11. Unfold: 멀티프레임 영상의 경우, 각 프레임을 펼쳐서 모든 영상을 표시합니다.
 12. Combine Series: 모든 시리즈를 하나로 병합할 수 있습니다. 시리즈 썸네일을 더블클릭해도 됩니다.
 13. Apply All: 이미지 처리 적용범위를 나타내는 것으로 On일 경우 시리즈 내 모든 의료 영상에 적용됩니다.
-14. Info 영상 위에 스터디정보, 주석 정보, 측정정보의 표시되는 여부를 선택할 수 있습니다.
-15. Select 마우스 상태를 기본상태인 선택 기능으로 변경합니다.
-16. W/L 윈도우 레벨을 변경합니다.
-17. Zoom 영상을 확대/축소합니다.
-18. Pan 영상의 위치를 움직입니다.
-19. Fit 영상을 영상표시칸의 크기에 맞게 되돌립니다.
-20. Left 영상을 왼쪽으로 90 도 회전합니다.
-21. Right 영상을 오른쪽으로 90 도 회전합니다.
-22. Length 원하는 부위의 길이를 측정합니다.
-23. Angle 원하는 부위의 각도를 측정합니다.
-24. Transformations Rotation, Reverse, Sharpening 등 영상조작 기능을 포함합니다.
-25. Measurements Center Line, Pixel Value 등 영상측정 기능을 포함합니다.
-26. Annotations Arrow Line, Localization, Text 등 정보표시 기능을 포함합니다.
-27. Presentation State 영상의 주석, 측정정보, 디스플레이 상태를 저장하고 영상에 다시 적용할 수 있습니다.
-28. Key Image Note Key Image를 선택하는 모드를 실행합니다. 복수 선택한 이미지들이 Key Image Note로 저장됩니다.
-29. Refresh 로딩된 영상을 다시 로딩합니다.
-30. Undo 가장 최근에 추가된 주석(Annotation)이나 측정(Measurement)을 취소합니다.
-31. Capture 영역별로 Secondary Capture 영상을 생성합니다.
-32. Revise 영상을 수정하거나 마킹을 추가하고 저장합니다.
-33. Utility Reset, Dicom info, Copy, Setting 기능을 포함합니다.
-34. Close 뷰어창을 닫습니다.
+14. Info: 영상 위에 스터디정보, 주석 정보, 측정정보의 표시되는 여부를 선택할 수 있습니다.
+15. Select: 마우스 상태를 기본상태인 선택 기능으로 변경합니다.
+16. W/L: 윈도우 레벨을 변경합니다.
+17. Zoom: 영상을 확대/축소합니다.
+18. Pan: 영상의 위치를 움직입니다.
+19. Fit: 영상을 영상표시칸의 크기에 맞게 되돌립니다.
+20. Left: 영상을 왼쪽으로 90 도 회전합니다.
+21. Right: 영상을 오른쪽으로 90 도 회전합니다.
+22. Length: 원하는 부위의 길이를 측정합니다.
+23. Angle: 원하는 부위의 각도를 측정합니다.
+24. Transformations: Rotation, Reverse, Sharpening 등 영상조작 기능을 포함합니다.
+25. Measurements: Center Line, Pixel Value 등 영상측정 기능을 포함합니다.
+26. Annotations: Arrow Line, Localization, Text 등 정보표시 기능을 포함합니다.
+27. Presentation State: 영상의 주석, 측정정보, 디스플레이 상태를 저장하고 영상에 다시 적용할 수 있습니다.
+28. Key Image Note: Key Image를 선택하는 모드를 실행합니다. 복수 선택한 이미지들이 Key Image Note로 저장됩니다.
+29. Refresh: 로딩된 영상을 다시 로딩합니다.
+30. Undo: 가장 최근에 추가된 주석(Annotation)이나 측정(Measurement)을 취소합니다.
+31. Capture: 영역별로 Secondary Capture 영상을 생성합니다.
+32. Revise: 영상을 수정하거나 마킹을 추가하고 저장합니다.
+33. Utility: Reset, Dicom info, Copy, Setting 기능을 포함합니다.
+34. Close: 뷰어창을 닫습니다.
 
 
 ## 메뉴(Menu)와 하위메뉴(Sub Menu)
@@ -104,7 +104,7 @@ I-Rapha View™의 메뉴바 내에 영상의 조회, 조작에 필요한 다양
 1. 영상을 클릭하거나 클릭후 마우스 휠로 영상을 이동하여 기준 영상을 지정합니다.
 2. 서로 다른 시리즈의 영상에서 기준 영상에 해당하는 위치표시선(Scout Line)을 표시해서 보여줍니다.
 
-### Cross Link
+### Cross Link(크로스링크)
 
 크로스링크(Cross Link) 기능은 기준영상의 원하는 부위에 마우스 클릭 또는 드래그 하면 서로 다른 시리즈의 영상에 해당하는 위치를 찾아서 좌표선을 이용하여 표시를 해줍니다. 스택모드(Stack Mode)에서만 작동하는 기능입니다.
 1. 스택모드(Stack Mode)에서 메뉴바의 [Navi] 메뉴를 클릭합니다.
@@ -113,7 +113,7 @@ I-Rapha View™의 메뉴바 내에 영상의 조회, 조작에 필요한 다양
 
 
 
-### Cine(동영상)
+## Cine(동영상)
 
 멀티프레임을 가지고 있는 시리즈의 영상들을 동영상처럼 보여주기 위해 사용합니다.
 선택한 시리즈가 멀티프레임을 가지고 있는 경우에는 Cine 기능이 자동으로 표시되며, 토글 메뉴를 이용해서 가릴 수 있습니다.

@@ -1,0 +1,7 @@
+{
+
+    "scripts": {
+      "write-translations": "docusaurus-write-translations"
+    },
+
+  }

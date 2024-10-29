@@ -37,7 +37,7 @@ const config = {
         htmlLang: 'en-GB',
       },
       // You can omit a locale (e.g. fr) if you don't need to override the defaults
-      fa: {
+      ko: {
         direction: 'rtl',
       },
     },
@@ -80,10 +80,11 @@ const config = {
     [
       '@docusaurus/plugin-ideal-image',
       {
-        quality: 70,
-        max: 1000, // max resized image's size.
-        min: 640, // min resized image's size. if original is lower, use that size.
-        steps: 2, // the max number of images generated between min and max (inclusive)
+        quality: 90,
+        sizes: [30,20],
+        max: 220, // max resized image's size.
+        min: 120, // min resized image's size. if original is lower, use that size.
+        steps: 4, // the max number of images generated between min and max (inclusive)
         disableInDev: false,
       },
     ],
