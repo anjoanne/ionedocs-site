@@ -15,7 +15,7 @@ The tutorials are organized by topics and can be read independently.
 
 
 |  :       |  최소사양       | 권장사양 |
-|----------|:-------------:|:------:|
+|:----------|:-------------:|:------:|
 | Operating System| Windows 10 64-bit(Latest Service Pack), Macintosh (Mojave) or more| Windows® 10 64-bit (Latest Service Pack), Macintosh (Sonoma) or more |
 | Browser |  Chrome ( Version : 110) or more (Recommend using the Chrome browser)  | Chrome Current (Latest version) (Recommend using the Chrome browser.)|
 | Processor| 2 core (2 GHz) or faster Intel® Core™ 2 Duo, Celeron E 1500 or AMD Athlon 64 3500 + | 4 core / 8 thread (3.4 GHz) or faster Intel® Core™ i3-13100 or AMD Ryzen™ 5 5600X|
@@ -52,12 +52,6 @@ The table describes the requirements for computer, that uses Ione viewing functi
 - [ ] [Raphaview](https://docs.gitlab.com/ee/user/project/members/)
 - [ ] [Backup & View](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
 - [ ] [Image Worklist](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-
-
-## Tutorials and Best Practices
-
-
-## FAQs
 
 
 

@@ -37,6 +37,11 @@ Window Width 의 값이 클수록 넓은 범위의 Window Level(밝기)을 표�
 영상을 축소하여 표시하려면 영상을 선택한 후 마우스를 아래로 드래그 하면 영상이 축소되어 표시됩니다.
 ![](img/zoom_ex2.png)
 
+:::info
+Zoom 기능은 커서 위치와 관계없이 항상 화면의 중앙을 기준으로 확대/축소됩니다. 따라서 특정 상황에서 더 높은 위치 정확도를 제공합니다.
+뷰의 기본 모드가 "최적 크기로 조정"으로 설정되어 있기 때문에, 다음 이미지를 스크롤할 때 이미지가 중앙에 위치하게 됩니다. 스크롤 시 이미지를 중앙에서 벗어나게 하려면 모드나 확대 배율을 변경해야 합니다.
+:::
+
 
 
 ### Pan
@@ -135,11 +140,6 @@ Pseudo Color 는 흑백 영상의 각 픽셀에 대해 그 농도 레벨에 따�
 2. Pseudo Color 팝업창의 리스트박스에서 선택한 Pseudo Color 방식에 따라 색상이 입혀져서 표시됩니다. 이미지모드(Image Mode)에서는 [영상표시창]에 보이는 영상의 시리즈에 적용됩니다. 스택모드(Stack Mode)에서는 선택한 영상의 시리즈에 적용됩니다.
 
 
-:::info
-The zoom function always zooms in/out to the center of the screen regardless of where the cursor is. This mode provides greater positional accuracy in particular situations.
-
-Since “Resize to best fit” is the default mode for a view, the image will be centered when scrolling to the next image. You need to change the mode or the zoom factor to keep the image off center when scrolling.
-:::
 
 ## Refresh
 
@@ -150,7 +150,6 @@ Since “Resize to best fit” is the default mode for a view, the image will be
 ## Undo(실행취소)
 
 영상에 마지막으로 삽입된 주석(Annotation)이나 측정(Measurement)을 취소하는 메뉴입니다.
-
 
 
 

@@ -5,6 +5,8 @@ expanded: true
 
 # Comparing Studies
 
+## 스터디탭(Study Tab)
+
 현재 뷰어에 로딩되어 있는 스터디의 정보를 보여주며, 현재 뷰어에 로딩되어 있는 스터디마다 하나의 스터디탭이 생성됩니다.
 현재 뷰어에 표시되고 있는 스터디의 스터디탭은 배경이 청록색으로 표시되며, 로딩은 되었으나 표시가 되고 있지 않은 스터디의 스터디탭은 회색으로 표시됩니다.
 
@@ -13,10 +15,10 @@ expanded: true
 
 ![](img/studytab.png)
 
-Patient Name 환자 이름
-Exam Date 촬영일자
-Sex 성별(M: 남, F: 여, O: 기타)
-Age 나이(Y: 년, M: 월, D: 일)
+- Patient Name 환자 이름
+- Exam Date 촬영일자
+- Sex 성별(M: 남, F: 여, O: 기타)
+- Age 나이(Y: 년, M: 월, D: 일)
 
 ## 스터디탭을 이용한 관련스터디(Related Study) 검색
 스터디탭 위에 마우스 커서를 올려놓으면 오른쪽 상단에 Related Study 아이콘이 표시됩니다.

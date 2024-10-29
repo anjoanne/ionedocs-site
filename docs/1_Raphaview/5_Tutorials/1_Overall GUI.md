@@ -68,13 +68,12 @@ I-Rapha View™의 메뉴바 내에 영상의 조회, 조작에 필요한 다양
 ## Layout 
 
 [Layout] 메뉴를 선택하면 하위메뉴(sub menu)가 나타납니다. 하위메뉴의 구성은 다음과 같습니다.
-메뉴 하위메뉴 설명
-Layout
-1:1 Mode 영상표시칸을 1 행 × 1 열으로 설정
-1:2 Mode 영상표시칸을 1 행 × 2 열으로 설정
-2:1 Mode 영상표시칸을 2 행 × 1 열으로 설정
-2:2 Mode 영상표시칸을 2 행 × 2 열으로 설정
-Config 영상표시칸을 최대 5 행 × 5 열까지 사용자가 설정
+
+- 1:1 Mode 영상표시칸을 1 행 × 1 열으로 설정
+- 1:2 Mode 영상표시칸을 1 행 × 2 열으로 설정
+- 2:1 Mode 영상표시칸을 2 행 × 1 열으로 설정
+- 2:2 Mode 영상표시칸을 2 행 × 2 열으로 설정
+- Config 영상표시칸을 최대 5 행 × 5 열까지 사용자가 설정
 
 
 ## Combine(시리즈 병합)
@@ -166,7 +165,7 @@ Window Width 는 대조도(Contrast)를, Window Level 은 밝기(Bright)를 의�
 ## Transformations(영상변형도구)
 
 영상에 변형을 가하여 영상조회에 도움을 주는 기능들이 모여 있습니다.
-선택시 나타나는 하위메뉴의 구성은 다음과 같습니다
+선택시 나타나는 하위메뉴의 구성은 다음과 같습니다.
 
 - Reverse: 표시된 영상을 좌우로 뒤집습니다.
 - Flip: 표시된 영상을 상하로 뒤집습니다.
@@ -221,7 +220,7 @@ Window Width 는 대조도(Contrast)를, Window Level 은 밝기(Bright)를 의�
 
 뷰어의 기타 유용한 기능들을 모아놓은 메뉴입니다.
 
-- Reset:: 사용자가 추가한 Annotation 이나 Measurement 를 없애고 영상의 상태를 처음 상태로 되돌립니다.
+- Reset: 사용자가 추가한 Annotation 이나 Measurement 를 없애고 영상의 상태를 처음 상태로 되돌립니다.
 - DICOM: 선택된 영상의 DICOM 헤더정보(DICOM Information)를 확인할 수 있습니다.
 - Copy: 선택된 영상을 클립보드에 저장합니다. 클립보드 기능을 제공하는 다른 프로그램에서 클립보드 내용을 불러옴으로써 영상을 붙여넣을 수 있습니다.
 - Save: 사용자가 추가한 Annotation 이나 Measurement 를 수동으로 저장합니다. 뷰어를 닫았다가 다시 열어도 이전에 그린 Annotation 이나 Measurement 이 유지됩니다.
