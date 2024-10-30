@@ -10,7 +10,7 @@
 :::
 
 ## 그룹 생성하기
-[How to Create Group](!img/CreateBackupSpace_01.png)
+
 1. [9010]Administrable 페이지로 이동합니다.
 2. **Administrable Groups**영역에서 그룹을 선택하고 **New**버튼을 클릭합니다.
 3. 백업 이용 병원/기관의 정보를 입력합니다.
@@ -25,4 +25,3 @@
 5. 그룹 생성여부와 그룹 생성시 입력한 정보를 확인할 수 있습니다. 그룹 정보가 잘못된 경우, **Administrable Groups**영역에서 **Modify**버튼을 클릭하여 그룹 정보를 수정하세요.
 
 ## 사용자 등록하기
-[How to Invite User](!img/CreateBackupSpace_02.png)
