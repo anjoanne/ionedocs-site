@@ -31,16 +31,7 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['fr', 'ko', 'ja'],
-    localeConfigs: {
-      en: {
-        htmlLang: 'en-GB',
-      },
-      // You can omit a locale (e.g. fr) if you don't need to override the defaults
-      ko: {
-        direction: 'rtl',
-      },
-    },
+    locales: ['en'],
   },
 
   presets: [
@@ -107,11 +98,7 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Tutorial',
-          }, 
-            {
-              type: 'localeDropdown',
-              position: 'right',
-            },
+          },
         ],
       },
       footer: {

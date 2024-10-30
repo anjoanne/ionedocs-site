@@ -30,29 +30,47 @@ expanded: true
 
 ## Append to Series 모드로 업로드 하는 경우
 
-1. Studies 영역에서 Study를 1개 선택한 후, Series 영역에서 리스트 모드 버튼을 클릭한다.
-2. Series 영역에서 Series를 1개 선택한 후, 우측 상단에서 A_Capture 버튼을 클릭한다.
-3. Series를 2개 이상 선택한 후 A_Capture 버튼을 클릭한다.
-4. 모바일 기기로 Advanced Capture 팝업의 우측 상단에 있는 QR 코드를 스캔한다.
-5. Capture 아이콘을 탭한다.
-6. 파일 탐색 화면에서 파일(사진&동영상)을 선택한 후, 완료 버튼을 탭한다.
-7. Upload 버튼을 탭한다.
-8. 업로드 성공하면 Upload Complete 팝업의 OK 버튼을 탭한다.
-9. 업로드 실패하면 파일 정렬 후, X 버튼 또는 하단의 Re-upload 버튼을 탭 한다.
-10. Advanced Capture 팝업에서 Close 버튼을 클릭한다.
-11. OK 버튼을 클릭한다.
+Studies 영역에서 Study를 1개 선택한 후, Series 영역에서 리스트 모드 버튼을 클릭한다.
+
+Series 영역에서 Series를 1개 선택한 후, 우측 상단에서 A_Capture 버튼을 클릭한다.
+
+Series를 2개 이상 선택한 후 A_Capture 버튼을 클릭한다.
+
+모바일 기기로 Advanced Capture 팝업의 우측 상단에 있는 QR 코드를 스캔한다.
+
+Capture 아이콘을 탭한다.
+
+파일 탐색 화면에서 파일(사진&동영상)을 선택한 후, 완료 버튼을 탭한다.
+
+Upload 버튼을 탭한다.
+
+업로드 성공하면 Upload Complete 팝업의 OK 버튼을 탭한다.
+
+업로드 실패하면 파일 정렬 후, X 버튼 또는 하단의 Re-upload 버튼을 탭 한다.
+
+Advanced Capture 팝업에서 Close 버튼을 클릭한다.
+
+OK 버튼을 클릭한다.
 
 
 ## PC Register Patient 탭에서 업로드 하는 경우
 
-1. 우측 상단에서 A_Capture 버튼을 클릭한다.
-2. Register Patient 탭을 클릭한 후, 환자 ID를 입력하거나 Generate ID 버튼을 클릭한다.
-3. 좌측 영역에서 Capture 아이콘을 클릭한다.
-4. 파일 탐색 화면에서 파일(JPEG, JPG, PNG, MP4, MOV)을 선택한 후, 완료 버튼을 클릭한다.
-5. Upload 버튼을 클릭한다.
-6. 업로드 성공하면, Upload Completed 팝업의 Keep Uploading 버튼을 클릭한다.
-7. 업로드 성공하면, Upload Completed 팝업의 Start Over 버튼을 클릭한다.
-8. 업로드 성공하면, Upload Completed 팝업의 Close 버튼을 클릭한다.
-9. 업로드 실패하면 파일 정렬 후, X 버튼 또는 하단의 Re-upload 버튼을 클릭한다.
+우측 상단에서 A_Capture 버튼을 클릭한다.
+
+Register Patient 탭을 클릭한 후, 환자 ID를 입력하거나 Generate ID 버튼을 클릭한다.
+
+좌측 영역에서 Capture 아이콘을 클릭한다.
+
+파일 탐색 화면에서 파일(JPEG, JPG, PNG, MP4, MOV)을 선택한 후, 완료 버튼을 클릭한다.
+
+Upload 버튼을 클릭한다.
+
+업로드 성공하면, Upload Completed 팝업의 Keep Uploading 버튼을 클릭한다.
+
+업로드 성공하면, Upload Completed 팝업의 Start Over 버튼을 클릭한다.
+
+업로드 성공하면, Upload Completed 팝업의 Close 버튼을 클릭한다.
+
+업로드 실패하면 파일 정렬 후, X 버튼 또는 하단의 Re-upload 버튼을 클릭한다.
 
 
