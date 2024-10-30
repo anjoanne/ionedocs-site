@@ -107,6 +107,10 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Tutorial',
+          }, 
+          {
+            type: 'localeDropdown',
+            position: 'right',
           },
         ],
       },
