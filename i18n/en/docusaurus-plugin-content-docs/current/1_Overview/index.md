@@ -14,7 +14,7 @@ The tutorials are organized by topics and can be read independently.
 ## System Requirements for IRM Service
 
 
-|  :       |  최소사양       | 권장사양 |
+|  :       |  Minimum       | Recommended |
 |:----------|:-------------:|:------:|
 | Operating System| Windows 10 64-bit(Latest Service Pack), Macintosh (Mojave) or more| Windows® 10 64-bit (Latest Service Pack), Macintosh (Sonoma) or more |
 | Browser |  Chrome ( Version : 110) or more (Recommend using the Chrome browser)  | Chrome Current (Latest version) (Recommend using the Chrome browser.)|

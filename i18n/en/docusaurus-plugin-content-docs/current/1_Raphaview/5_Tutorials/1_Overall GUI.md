@@ -3,17 +3,16 @@
 
 :::info
 
-I-Rapha View™는 DICOM 형태의 영상을 표시하고 진단 및 판독에 필요한 여러가지 의료영상 조작 기능을 제공하고 있습니다.
-I-Rapha View™의 화면은 메뉴바, 토글버튼, 시리즈썸네일창, 영상표시창으로 구성되어 있습니다.
+I-Rapha View™ displays DICOM images and provides various image manipulation features necessary for medical diagnosis and interpretation. The I-Rapha View™ interface consists of a menu bar, toggle buttons, series thumbnail window, and image display window.
 
 :::
 
 ![](img/gui.png)
 
-- ⓵ 메뉴바 :의료영상을 조회, 판독하기 위해 필요한 기능을 나열하여 보여줍니다.
-- ⓶ 시리즈: 썸네일창 현재 표시되는 스터디의 시리즈를 썸네일로 나열하여 보여줍니다.
-- ⓷ 스터디탭: 뷰어에 열려 있는 스터디의 정보를 보여줍니다.
-- ⓸ 의료영상표시창: 의료영상을 보여주는 화면입니다.
+- ⓵ Menu Bar: Lists functions needed to view and interpret medical images.
+- ⓶ Series Thumbnails: Displays series from the current study as thumbnails.
+- ⓷ Study Tab: Shows information for the studies opened in the viewer.
+- ⓸ Image Display Window: Displays the medical images.
 
 I-Rapha View™ 상단에 위치한 메뉴바(menubar)는 의료 영상을 조회, 판독하기 위한 여러가지 기능(Overlay, Transformations, Filtering 등)을 메타포와 툴팁을 포함하여 나타냅니다.
 메뉴바에 표시되는 메뉴의 항목은 뷰어의 모드에 따라 변경됩니다.
