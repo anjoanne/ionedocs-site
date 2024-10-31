@@ -8,18 +8,14 @@ expanded: true
 
 ![](5_Tutorials/img/iraphalogo.png)
 
-I-Rapha View™는 의료영상 전송장치에서 전송된 DICOM 형태의 영상을 웹 표준방식(HTML5)을 이용하여 조회를 할 수 있게 해 주는 DICOM 뷰어 소프트웨어입니다.
-
-이 매뉴얼은 사용자들이 I-Rapha View™의 기능을 더 잘 이해하고 활용할 수 있도록 작성되었습니다.
-
-HTML5 를 지원하는 웹브라우저에서 별도의 플러그인 설치 필요없이 사용 가능합니다.
-이 어플리케이션에서는 판독에 필요한 여러가지 의료영상 조작 기능을 제공하고 있습니다.
-I-Rapha View™는 식약처에서 인증받은 의료기기입니다.
-- 품목허가번호: 제인 18-4032 호
-- 품목명: 의료영상전송장치소프트웨어
-- 분류번호: A26430.03
-- 등급: 2 등급
-- 명칭:(주)아이알엠·의료영상전송장치소프트웨어, I-Rapha View
+I-Rapha View™ is a DICOM viewer software that allows users to view DICOM images transmitted from medical imaging devices using web standards (HTML5).
+This manual is designed to help users better understand and utilize the features of I-Rapha View™.
+It can be used in web browsers that support HTML5 without the need for any additional plugin installation. This application provides various medical image manipulation functions necessary for diagnostics and interpretation. I-Rapha View™ is a certified medical device approved by the Ministry of Food and Drug Safety.
+* Approval Number: 18-4032
+* Product Name: Medical Imaging Transmission Device Software
+* Classification Number: A26430.03
+* Grade: Class II
+* Manufacturer: IRM Inc., Medical Imaging Transmission Device Software, I-Rapha View
 
 ------
 
@@ -28,19 +24,14 @@ I-Rapha View™는 식약처에서 인증받은 의료기기입니다.
 
 ![](../1_Raphaview/5_Tutorials/img/gui.png)
 
-I-Rapha View™는 DICOM 형태의 영상을 표시하고 진단 및 판독에 필요한 여러가지 의료영상 조작 기능을 제공하고 있습니다.
-I-Rapha View™의 화면은 메뉴바, 토글버튼, 시리즈썸네일창, 영상표시창으로 구성되어 있습니다.
-
+I-Rapha View™ displays DICOM images and provides various medical image manipulation functions required for diagnosis and interpretation. The I-Rapha View™ interface consists of a menu bar, toggle buttons, series thumbnail window, and image display window.
 
 --------
 
 ## FAQ
 
-I-one DICOM Viewer [Tutorial](./5_Tutorials/index.md) 또는 [FAQ](../FAQ/intro.md)를 방문하시면 자주 묻는 질문이나 문제에 대한 답변을 확인하실 수 있습니다.
+Visit the I-one DICOM Viewer [Tutorial](./5_Tutorials/index.md) or [FAQ](../FAQ/intro.md) to find answers to frequently asked questions or issues.
 
 ----
 
-IRM Inc. 의 명시적인 서면 동의 없이 이 설명서를 복사, 인쇄, 배포하는 것은 금지되어 있습니다.
-이 설명서의 내용은 사전 통지 없이 변경될 수 있습니다.
-이 설명서는 신중하게 준비되었으나, 오류나 누락이 있을 수 있습니다. 궁금한 사항이나 오류를 발견하시면 당사에 문의해 주세요.
-Copyright© 2024 by IRM Inc.
+Copying, printing, or distributing this document without the explicit written consent of IRM Inc. is prohibited. The content of this document is subject to change without prior notice. While this document has been carefully prepared, there may be errors or omissions. If you have any questions or find any errors, please contact us.
