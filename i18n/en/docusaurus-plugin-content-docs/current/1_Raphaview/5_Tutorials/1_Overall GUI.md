@@ -98,7 +98,7 @@ Inter Study: Executes the Cross Link function across different studies.
 1. Click or scroll on an image to set a reference image.
 2. Scout Lines show the corresponding location in other series images.
 
-### Cross Link(크로스링크)
+### Cross Link
 
 Cross Link allows users to mark a location on a reference image by clicking or dragging, displaying the corresponding coordinates on other series images. It operates only in Stack Mode.
 
