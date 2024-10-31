@@ -30,8 +30,6 @@ Our mission is to provide healthcare providers with a sustainable, cost-effectiv
 In case if you still have any questions regarding this guide feel free to ask [contact@irmhealthcare.com]
 
 
-
-
 The table describes the requirements for computer, that uses Ione viewing functionalities from remote Ione server through the internet:
 
 

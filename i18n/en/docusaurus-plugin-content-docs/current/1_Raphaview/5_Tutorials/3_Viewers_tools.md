@@ -5,99 +5,90 @@ expanded: true
 
 # Viewer’s tools
 
+## Medical Image Information Display
 
-## Display Info 의료영상정보 표시 내용
-
-영상표시창의 영상 위에 환자정보, 영상정보, 주석정보, 측정정보를 표시하거나 숨길 수 있습니다.
-
+You can display or hide patient information, image information, annotation information, and measurement information over the image in the display window.
 
 ![](img/dicominfo_ex.png)
 
-1. Patient Name: 환자이름
-2. Patient ID: 환자번호
-3. Age / Sex: 환자나이 / 성별
-4. Content Date: 영상 날짜(촬영일자)
-5. Cotent Time: 영상 시간(촬영시간)
-6. Modality: 장비별 관련 정보
-7. Image Quality: 이미지 퀄리티
-8. Width X Height: 영상 사이즈(가로*세로 픽셀수)
-9. Zoom: 이미지 줌 비율
-10. Institution: 병원이름
-11. Series Description: 시리즈 설명
-12. Series Number: 시리즈 번호
-13. Instance Number: 이미지 번호(현재 조회중인 인덱스/전체 인덱스)
-14. VOI LUT Type: 영상 타입
-15. Window Width/Level: 윈도우 레벨
-16. Modality Manufacturer: 장비 제조사
+1. Patient Name: Patient's name
+2. Patient ID: Patient number
+3. Age / Sex: Patient's age / gender
+4. Content Date: Date of the image (capture date)
+5. Content Time: Time of the image (capture time)
+6. Modality: Equipment-related information
+7. Image Quality: Image quality
+8. Width X Height: Image size (width x height in pixels)
+9. Zoom: Image zoom ratio
+10. Institution: Hospital name
+11. Series Description: Series description
+12. Series Number: Series number
+13. Instance Number: Image number (current index / total index)
+14. VOI LUT Type: Image type
+15. Window Width/Level: Window level
+16. Modality Manufacturer: Equipment manufacturer
 
 
-메뉴바의 [Info] 메뉴의 [Information] 하위 메뉴를 선택하면 영상표시창의 영상 위에 환자정보, 스터디 정보, 영상정보 등이 표시됩니다.
 
+To display patient information, study information, and image information over the image in the display window, select the [Information] submenu under the [Info] menu in the menu bar.
 
-1. 메뉴바에서 [Info] 메뉴를 클릭합니다.
+1. Click the [Info] menu in the menu bar.
 
 ![](img/displayinfo.png)
 
-2. [Info] 메뉴의 하위메뉴에서 영상 위에 표시하거나 숨기기를 원하는 항목을 선택합니다.
-
-
+2. In the [Info] submenu, select the items you wish to display or hide over the image.
 ![](img/displayinfo_ex.png)
 
-1. Show All 선택 시 Information, Annotation, Measurements 정보를 모두 표시합니다.
-2. Hide All 선택 시 Information, Annotion, Measuremens 정보를 모두 표시하지 않습니다.
-3. Information 선택 시 의료영상정보를 영상 위에 표시합니다. 선택 해제 시 의료영상정보를 영상위에 표시하지 않습니다.
-4. Annotation 선택 시 주석(Annotation) 정보를 영상 위에 표시합니다. 선택 해제 시 주석(Annotation) 정보를 영상위에 표시하지 않습니다.
-5. Measurements 선택 시 측정(Annotation) 정보를 영상 위에 표시합니다. 선택 해제 시 측정(Annotation) 정보를 영상위에 표시하지 않습니다.
-6. Overlay 선택 시 레이어 이미지(Overlay)가 있는 영상의 경우 레이어를 겹쳐서 표시합니다. 선택 해제 시 레이어 이미지(Overlay)가 있는 영상의 경우 레이어를 표시 하지 않습니다.
-
+1. Selecting Show All displays all Information, Annotation, and Measurements.
+2. Selecting Hide All hides all Information, Annotation, and Measurements.
+3. Selecting Information displays medical image information over the image. Deselecting it will hide the medical image information.
+4. Selecting Annotation displays annotation information over the image. Deselecting it will hide the annotation information.
+5. Selecting Measurements displays measurement information over the image. Deselecting it will hide the measurement information.
+6. Selecting Overlay displays overlay layers for images that have them. Deselecting it will hide the overlay layers for such images.
 
 ## Report
 조회하고 있는 스터디에 대한 판독소견서를 작성하고 조회하는 기능을 제공하는 메뉴입니다.
 
 ![](img/report_new.png)
 
-1. Public Form 공용 리포트 양식
-2. Pravate Form 판독자가 미리 생성한 리포트 양식
-3. Private Paragraph 판독문 소견서에 미리 저장한 문구를 입력합니다.
-4. 판독 입력 선택된 스터디에 새로운 판독소견서를 작성합니다.
-5. 판독 이력: 선택된 스터디에 작성된 판독소견서 목록이 판독일시 순으로 표시됩니다.
-6. 기능버튼
-    - Auto Next: 다음 스터디 자동 로딩
-    - Cancel: 판독문 입력 취소
-    - Draft: 임시저장
-    - Submit: 저장
+1. Public Form: Public report template
+2. Private Form: Report template pre-created by the interpreter
+3. Private Paragraph: Insert phrases previously saved in the report statement.
+4. Interpretation Input: Create a new interpretation report for the selected study.
+5. Interpretation History: Displays a list of interpretation reports created for the selected study, sorted by interpretation date and time.
+6. Function Buttons:
+    * Auto Next: Automatically loads the next study
+    * Cancel: Cancel the interpretation input
+    * Draft: Save as a draft
+    * Submit: Save the report
 
-### Cine(동영상)
+### Cine(Video)
 
-멀티프레임을 가지고 있는 시리즈의 영상들을 동영상처럼 보여주기 위해 사용합니다.
-선택한 시리즈가 멀티프레임을 가지고 있는 경우에는 Cine 기능이 자동으로 표시되며, 토글 메뉴를 이용해서 가릴 수 있습니다.
-
+This feature is used to display images from a series with multiple frames like a video. If the selected series contains multiple frames, the Cine function will be displayed automatically and can be toggled on or off using the menu.
 
 ![](img/cine_ex.png)
 
 
-**동영상처럼 보기(Cine Mode)**
+**Cine Mode**
 
-스택모드(Stack Mode)에서 선택된 시리즈의 영상들 조회할때 사용하는 메뉴입니다.
-[Cine] 메뉴는 토글 방식으로 작동하며 OFF 상태가 기본상태입니다.
-1. 스택모드(Stack Mode)가 선택된 상태에서 메뉴바에서 [Cine] 메뉴를 클릭합니다.
-2. 각 시리즈의 영상 위에 재생컨트롤박스가 표시됩니다.
-3. 재생컨트롤박스를 이용하여 영상을 동영상처럼 조회할 수 있습니다. 재생컨트롤 박스의 구성은 다음과 같습니다.
+This menu is used to view the selected series of images in Stack Mode. The [Cine] menu operates in a toggle manner, with the OFF state as the default.
+
+1. In Stack Mode, click the [Cine] menu on the menu bar.
+2. A playback control box will appear over the images of each series.
+3. You can view the images like a video using the playback control box. The components of the playback control box are as follows:
 
 ![](img/playbox.png)
 
-1. 재생바: 재생되고 있는 영상의 위치를 나타내며, 재생바 위에 마우스를 가져가면 해당 위치의 영상의 썸네일이 보이며 클릭하면 해당 위치의 영상이 영상표시칸에 나타납니다.
-2. 반복재생모드: 영상을 반복재생할 때의 모드를 선택합니다.
-    - Loop: 영상이 반복 재생될 때 첫번째 영상부터 차례로 재생됩니다.
-    - YoYo: 영상이 반복 재생될 때 재생이 끝난 지점의 영상부터 다시 반대로 재생됩니다.
-3. 첫번째 영상으로 이동 시리즈의 첫번째 영상으로 이동하여 영상표시칸에 표시합니다.
-4. 이전 영상으로 이동 영상표시칸에 표시된 영상보다 1 장 앞의 영상으로 이동합니다.
-5. 재생, 멈춤 동영상을 재생 또는 정지시킵니다.
-    - 재생 : 동영상으로 재생합니다.
-    - 멈춤 : 재생 중인 동영상을 일시 정지합니다.
-4. 다음 영상으로 이동: 영상표시칸에 표시된 영상보다 1 장 다음의 영상으로 이동합니다.
-5. 마지막 영상으로 이동: 시리즈의 마지막영상으로 이동하여 영상표시칸에 표시합니다.
-6. 재생속도: FPS(초당 재생프레임)를 지정하여 재생속도를 조정합니다(1~33FPS)
-7. 영상 번호: 시리즈내 총 영상 수 대비 현재 재생되고 있는 영상의 번호를 표시합니다.
-
-
+1. Playback Bar: Indicates the current position of the playing image. Hovering over the playback bar will show a thumbnail of the image at that position, and clicking it will display the image in the viewing area.
+2. Repeat Playback Mode: Select the mode for repeating playback.
+    * Loop: The images will play in order from the first image when repeated.
+    * YoYo: The playback will reverse from the last image back to the first when it reaches the end.
+3. Jump to First Image: Moves to the first image in the series and displays it in the viewing area.
+4. Previous Image: Moves to the image one frame before the currently displayed image.
+5. Play/Pause: Plays or pauses the video.
+    * Play: Plays the video.
+    * Pause: Pauses the currently playing video.
+6. Next Image: Moves to the image one frame after the currently displayed image.
+7. Jump to Last Image: Moves to the last image in the series and displays it in the viewing area.
+8. Playback Speed: Adjusts the playback speed by specifying FPS (frames per second) (1-33 FPS).
+9. Image Number: Displays the current image number relative to the total number of images in the series.

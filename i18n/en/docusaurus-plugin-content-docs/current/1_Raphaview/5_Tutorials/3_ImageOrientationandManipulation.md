@@ -5,55 +5,56 @@ expanded: true
 
 # Image Orientation and Manipulation
 
-## 의료 영상 조작 
+## Medical Image Manipulation
 
-I-Rapha View™는 영상의 확대 및 밝기, 대조도의 조정, 특정부위의 길이나 각도의 측정과 같이 다양한 영상조작 및 측정기능을 제공하고 있습니다.
-
+I-Rapha View™ offers various image manipulation and measurement features, including zoom, brightness, contrast adjustments, and measurement of specific regions for length or angle.
 
 ## Adjusting Window/Level (Brightness & Contrast)
 
-**Window W/L(영상 밝기/대조도) 조정**
+**Window W/L (Brightness & Contrast) Adjustment**
 
-Window Width 는 대조도(Contrast)를, Window Level 은 밝기(Bright)를 의미합니다.
-마우스 커서를 영상에 위치시키고 마우스를 상하, 좌우로 우클릭 드래그하면 영상의 Window Width 와 Level 이 변경됩니다. 
-마우스의 좌우 드래그는 Window Width(대조도)를 변경하고 상하드래그는 Window Level(밝기)을 변경합니다.
+* Window Width controls contrast, and Window Level controls brightness.
+* To adjust, place the mouse cursor over the image, right-click, and drag vertically or horizontally.
+    * Horizontal drag adjusts Window Width (contrast).
+    * Vertical drag adjusts Window Level (brightness).
 
 ![](img/brightness.png)
 
-Window Width 의 값이 클수록 넓은 범위의 Window Level(밝기)을 표현할 수 있으나 대조도(Contrast)가 낮아 지게 됩니다. 반대로 Window Width 의 값이 작으면 표현할 수 있는 Window Level(밝기)의 범위가 좁아지만 대조도(Contrast)가 높은 영상을 얻을 수 있습니다.
-
+Increasing the Window Width allows a broader brightness range but reduces contrast. Decreasing it narrows the brightness range, resulting in higher contrast.
 
 
 ## Zooming, Panning
 
-### Zoom(영상 확대/축소)
+### Zoom
 
-[영상표시창]에 표시된 영상을 확대 또는 축소하여 표시합니다. 영상을 선택한 후 마우스 오른쪽 버튼을 클릭하면 컨텍스트 메뉴가 표시됩니다. 축소( - ) 아이콘 또는 확대( + ) 아이콘을 클릭하여 정해진 비율 단계로 영상 크기를 조정할 수 있습니다. 설정 가능한 범위는 25% ~ 500% 이며 25~200 구간은 25% 단계, 200 ~ 500 구간은 50% 단계로 확대/축소됩니다. 세밀한 크기 조정 이 필요한 경우 텍스트 입력란을 통해 원하는 비율을 입력하고 키보드에서 Enter 키를 눌러주면 입력된 비율로 영상 크기가 조정됩니다. 입력 가능한 범위는 25 ~ 500 사이의 값으로 지정된 단계 없이 자유롭게 입력 가능합니다.
+This function allows you to zoom in or out on the displayed image. Right-click the selected image to open a context menu, then click the zoom out ( - ) or zoom in ( + ) icon to adjust the image size incrementally. The adjustable range is from 25% to 500%:
+
+For finer adjustments, input the desired percentage directly into the text field and press Enter. This allows a custom zoom level within the 25-500% range.
+
 
 ![](img/zoom.png)
 
-영상을 확대하여 표시하려면 Zoom 기능이 선택된 상태에서 원하는 영상 위에서 마우스를 위로 드래그 합니다.
+To zoom in, select the Zoom tool and drag the mouse upward over the image.
 ![](img/zoom_ex.png)
-영상을 축소하여 표시하려면 영상을 선택한 후 마우스를 아래로 드래그 하면 영상이 축소되어 표시됩니다.
+To zoom out, select the image and drag the mouse downward.
 ![](img/zoom_ex2.png)
 
 :::info
-Zoom 기능은 커서 위치와 관계없이 항상 화면의 중앙을 기준으로 확대/축소됩니다. 따라서 특정 상황에서 더 높은 위치 정확도를 제공합니다.
-뷰의 기본 모드가 "최적 크기로 조정"으로 설정되어 있기 때문에, 다음 이미지를 스크롤할 때 이미지가 중앙에 위치하게 됩니다. 스크롤 시 이미지를 중앙에서 벗어나게 하려면 모드나 확대 배율을 변경해야 합니다.
+Zooming always centers on the middle of the screen, enhancing positional accuracy. Since the default view mode is set to "Fit to Best Size," images remain centered while scrolling. To offset the image from the center during scrolling, change the view mode or zoom level.
 :::
 
 
-
 ### Pan
-영상 표시창에 표시된 영상의 위치를 이동하여 표시하는데 사용하는 기능입니다.
+Use this tool to move the position of the displayed image within the viewer window.
+
 
 ![](img/pan_ex.png)
 
 ### Rotate
 
-**Rotate Left: 영상 왼쪽으로 돌리기**
-1. 메뉴바에서 [Trans.] 메뉴의 하위메뉴에서 [Rotate Left] 메뉴를 마우스로 선택합니다.
-2. 선택된 영상이 속한 시리즈의 모든 영상들이 왼쪽(반시계방향)으로 회전되어서 표시가 됩니다. 이미지모드(Image Mode)에서는 [영상표시창]에 보이는 영상의 시리즈에 적용됩니다. 스택모드(Stack Mode)에서는 선택한 영상의 시리즈에 적용됩니다. Rotate Left 는 메뉴바의 Left 툴팁으로도 적용가능합니다.
+**Rotate Left: Rotate Image to the Left**
+1. From the menu bar, select Rotate Left under the [Trans].
+2. The entire series of the selected image rotates left (counterclockwise). In Image Mode, this applies to the visible image series in the viewer window; in Stack Mode, it applies to the selected image series. Rotate Left can also be accessed via the Left tooltip in the menu bar.
 
 
 **Rotate Right: 영상 오른쪽으로 돌리기**

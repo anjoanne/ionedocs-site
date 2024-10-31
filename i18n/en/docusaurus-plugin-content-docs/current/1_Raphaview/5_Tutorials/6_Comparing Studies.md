@@ -5,40 +5,39 @@ expanded: true
 
 # Comparing Studies
 
-현재 뷰어에 로딩되어 있는 스터디의 정보를 보여주며, 현재 뷰어에 로딩되어 있는 스터디마다 하나의 스터디탭이 생성됩니다.
-현재 뷰어에 표시되고 있는 스터디의 스터디탭은 배경이 청록색으로 표시되며, 로딩은 되었으나 표시가 되고 있지 않은 스터디의 스터디탭은 회색으로 표시됩니다.
+The current viewer displays information about the loaded studies, with one study tab created for each study. The study tab for the currently displayed study has a turquoise background, while study tabs for studies that are loaded but not displayed appear in gray.
 
 
-**스터디탭(Study Tab) 표시 정보**
+**Study Tab Display Information**
 
 ![](img/studytab.png)
 
-- Patient Name 환자 이름
-- Exam Date 촬영일자
-- Sex 성별(M: 남, F: 여, O: 기타)
-- Age 나이(Y: 년, M: 월, D: 일)
 
-## 스터디탭을 이용한 관련스터디(Related Study) 검색
-스터디탭 위에 마우스 커서를 올려놓으면 오른쪽 상단에 Related Study 아이콘이 표시됩니다.
-아이콘을 클릭하면 [영상표시창]에 표시된 스터디와 동일한 환자 번호로 촬영된 다른 스터디의 목록을 표시할 수 있습니다.
+* Patient Name: The name of the patient
+* Exam Date: The date of the exam
+* Sex: Gender (M: Male, F: Female, O: Other)
+* Age: Age (Y: Years, M: Months, D: Days)
 
+## Searching for Related Studies Using Study Tabs
+
+When the mouse cursor hovers over a study tab, a Related Study icon appears in the upper right corner. Clicking this icon displays a list of other studies taken with the same patient ID as the study shown in the [Image Display Window].
 
 ![](img/study_related.png)
 
 
-## 가상 레이아웃에서 스터디 비교
+## Study Comparison in Virtual Layout
 
-**영상표시창 가상레이아웃(Virtual Layout)**
+**Virtual Layout of the Image Display Window**
 
-메뉴바의 [VL] 메뉴로 가상레이아웃을 변경하면 [영상표시창]의 배치도 변경됩니다.
+Changing the virtual layout using the [VL] menu on the menu bar will also alter the arrangement of the [Image Display Window].
 
 ![](img/vl_ex.png)
 
-**수직레이아웃(Vertical Layout)** 은 좌우로 2 개의 영상표시창이 실행되며, 하나의 뷰어에서 서로 다른 스터디를 비교하면서 조회할 수 있습니다.
+Vertical Layout: Two image display windows run side by side, allowing you to compare different studies within a single viewer.
 
 ![Vertical Layout](img/vl_ex2.png)
 
-**수평레이아웃(Horizontal Layout)** 은 상하로 2 개의 영상표시창이 실행되며, 하나의 뷰어에서 서로 다른 스터디를 비교하면서 조회할 수 있습니다.
+Horizontal Layout: Two image display windows run one above the other, enabling the comparison of different studies within a single viewer.
 
 ![Horizontal Layout](img/vl_ex3.png)
 
