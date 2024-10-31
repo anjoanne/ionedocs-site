@@ -1,0 +1,46 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Products": {
+    "message": "Products",
+    "description": "The label for category Products in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Products.link.generated-index.description": {
+    "message": "5 minutes to learn the most important I-one concepts.",
+    "description": "The generated-index page description for category Products in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.I-Rapha View": {
+    "message": "I-Rapha View",
+    "description": "The label for category I-Rapha View in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorials": {
+    "message": "Tutorials",
+    "description": "The label for category Tutorials in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Glossary": {
+    "message": "Glossary",
+    "description": "The label for category Glossary in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Backup & View": {
+    "message": "Backup & View",
+    "description": "The label for category Backup & View in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Backup Setting": {
+    "message": "Backup Setting",
+    "description": "The label for category Backup Setting in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Backup Automation": {
+    "message": "Backup Automation",
+    "description": "The label for category Backup Automation in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Backup Data Management": {
+    "message": "Backup Data Management",
+    "description": "The label for category Backup Data Management in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.FAQ": {
+    "message": "FAQ",
+    "description": "The label for category FAQ in sidebar tutorialSidebar"
+  }
+}

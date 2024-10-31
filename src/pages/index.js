@@ -4,6 +4,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
+import Translate, {translate} from '@docusaurus/Translate';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
@@ -22,6 +23,7 @@ function HomepageHeader() {
             to="/docs/intro">
             I-one Tutorial
           </Link>
+          <Translate> I-one Tutorial</Translate>
         </div>
       </div>
     </header>
