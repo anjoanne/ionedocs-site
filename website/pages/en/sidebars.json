@@ -1,0 +1,25 @@
+{
+  "docs": {
+    "My Example Category": [
+      "examples",
+      {
+        "type": "subcategory",
+        "label": "My Example Subcategory",
+        "ids": [
+          "my-examples"
+       
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "My Next Subcategory",
+        "ids": [
+          "some-other-examples"
+        ]
+      },
+      "even-more-examples"
+     
+    ]
+ 
+  }
+}
